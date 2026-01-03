@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to see you."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "I have to go"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care! Come back soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Can you tell me your name?"
+      ],
+      "responses": [
+        "I'm ChatBot, your virtual assistant!",
+        "You can call me ChatBot.",
+        "I'm ChatBot, nice to meet you!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need help",
+        "What can you do?",
+        "How can you help me?"
+      ],
+      "responses": [
+        "I can chat with you and answer simple questions!",
+        "I'm here to have conversations with you. Try asking me about my name or just say hello!",
+        "I'm a simple chatbot. You can talk to me about various topics."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it raining?",
+        "Is it sunny?"
+      ],
+      "responses": [
+        "I don't have access to current weather data, but I hope it's nice where you are!",
+        "You might want to check a weather website or app for accurate information.",
+        "I'm just a chatbot, but I hope the weather is pleasant for you!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you born?"
+      ],
+      "responses": [
+        "I'm a chatbot, so I don't have an age!",
+        "I was created recently, so I'm brand new!",
+        "Age is just a number for an AI like me!"
+      ],
+      "context": [""]
+    }
+  ]
+}
