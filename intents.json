@@ -11,11 +11,10 @@
         "Good evening"
       ],
       "responses": [
-        "Hello! How can I help you?",
-        "Hi there! What can I do for you?",
-        "Hey! Nice to see you."
+        "Hey! Nice to see you.",
+        "Greetings! How is it going ?"
       ],
-      "context": [""]
+      "context": ["Greetings"]
     },
     {
       "tag": "goodbye",
@@ -57,11 +56,11 @@
         "Can you tell me your name?"
       ],
       "responses": [
-        "I'm ChatBot, your virtual assistant!",
-        "You can call me ChatBot.",
-        "I'm ChatBot, nice to meet you!"
+        "I'm SWAGGBOT, your virtual assistant!",
+        "You can call me SWAGGBOT.",
+        "I'm SWAGGBOT, nice to meet you!"
       ],
-      "context": [""]
+      "context": ["Intro"]
     },
     {
       "tag": "help",
